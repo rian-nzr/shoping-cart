@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { BiMenu, BiHomeAlt , BiStore} from 'react-icons/bi'
+import { BiMenu, BiHomeAlt, BiStore } from 'react-icons/bi'
 import { MdClose } from 'react-icons/md'
 import { BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs'
 import { useSelector } from 'react-redux'
@@ -103,7 +103,7 @@ export default function Header() {
                                 </li>
 
                             </ul>
-                            
+
                         </div>
                         <div className="absolute bottom-5 flex flex-col w-4/5">
                             <div className="flex justify-center space-x-3">
@@ -118,7 +118,6 @@ export default function Header() {
                                 </div>
                             </div>
                             <p className="py-2 text-sm text-center text-gray-700">
-                                
                                 Copyright <span className="font-medium">RIAN</span>© {new Date().getFullYear()}
                             </p>
                         </div>

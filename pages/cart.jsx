@@ -34,7 +34,7 @@ export default function CartPage() {
                     <div className="mt-6 h-full rounded-lg bg-gray-800 text-white p-6 shadow-md md:mt-0 md:w-1/3">
                         {cart.length === 0 ? '' : (
                             cart.map((item) => (
-                                <div className="mb-2 flex justify-between">
+                                <div key={item.id} className="mb-2 flex justify-between">
                                     <p className="">{item.product}</p>
                                     <p className="">${(item.quantity * item.price).toFixed(2)} USD</p>
                                 </div>

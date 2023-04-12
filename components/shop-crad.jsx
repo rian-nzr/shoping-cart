@@ -10,6 +10,7 @@ export default function ShopCrad({ data }) {
             <div className="w-full rounded-lg sm:w-28 overflow-hidden">
                 <Image
                     src={data.image}
+                    alt="photo"
                     width={100}
                     height={30}
                     className="w-full"
