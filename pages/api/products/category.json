@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "category_name": "Xbox",
+        "slug": "xbox",
+        "image" : "xbox.png"
+    },
+    {
+        "id": 2,
+        "category_name": "Ps5",
+        "slug": "ps5",
+        "image": "ps.png"
+    },
+    {
+        "id": 3,
+        "category_name": "Switch",
+        "slug": "switch",
+        "image": "Switch.png"
+    },
+    {
+        "id": 4,
+        "category_name": "pc",
+        "slug": "pc",
+        "image":"pc.png"
+    },
+    {
+        "id": 5,
+        "category_name": "Accessories",
+        "slug" : "accessories",
+        "image": "ass.png"
+    }
+]
