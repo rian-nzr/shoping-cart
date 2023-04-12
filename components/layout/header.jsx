@@ -68,9 +68,9 @@ export default function Header() {
                 >
                     <div className="bg-white w-4/5 overflow-hidden rounded-r-xl font-inter">
                         <div className=" overflow-hidden flex items-center justify-between px-2">
-                            <p className="text-lg text-gray-700 font-bold px-3">
-                                KampusKoding.com
-                            </p>
+                        <h1 rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-end text-xl font-bold">
+                            <span className="text-yellow-500 text-2xl">A</span>ceh  <span className="text-yellow-500 text-2xl pl-2">S</span>tore
+                        </h1>
                             <button
                                 className="flex flex-col h-12 w-12 rounded justify-center items-center group"
                                 onClick={() => setOpen(!open)}
